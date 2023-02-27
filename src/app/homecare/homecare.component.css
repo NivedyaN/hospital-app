@@ -1,0 +1,17 @@
+h5{
+    color: red;
+}
+h1{
+    color: blue;
+}
+.align-right {
+    display: block;
+    margin: 0 auto;
+    float: right;
+  }
+  img{
+    margin-top: 400px;
+    height: 500px;
+    width: 500px;
+
+  }

@@ -1,0 +1,62 @@
+{
+  "departments":[
+  {
+    "id": 1,
+    "dept_image": "https://st4.depositphotos.com/12536728/22735/i/600/depositphotos_227351214-stock-photo-male-doctor-dentist-working-patient.jpg",
+    "dept_name": "Dental, Oral & Maxillofacial Surgery", 
+    "doctors":[{
+        "dt_name": "Amala Tom",
+        "dt_image": "https://rajasthanhospital.in/img/appoint.png",
+        "dt_qual": "BDS, MDS, DLD"
+      },
+      {
+        "dt_name":"Priya S",
+        "dt_image":"https://www.panachedental.in/wp-content/uploads/2022/12/Dr_Shriyam_Sharan.png",
+        "dt_qual":"BDS, MDS, "
+      }]
+    
+    },
+   
+  {
+    "id":2,
+    "dept_image": "https://media.istockphoto.com/id/654036286/photo/support-and-care-of-the-human-stomach.jpg?s=612x612&w=0&k=20&c=qNcnDeeTcxsCFgR0chmyQHoWjKGW76rzE3MRxwUNIAw=",
+    "dept_name": "Gastroenterology",
+    "doctors":[{
+      "dt_name": "Joseph Martin",
+      "dt_image": "https://media.istockphoto.com/id/1124684854/photo/portrait-of-indian-doctor.jpg?s=612x612&w=0&k=20&c=z07-F84erAbm8Z_sVJhLXdaJBfMFSiJjf_uaHg7Z3sY=",
+      "dt_qual": "MBBS , MD, DM ( Gastroenterology)"
+    }]
+   
+  },{
+    "id":3,
+    "dept_image": "https://media.istockphoto.com/id/1386458396/photo/pulmonologist-listens-to-the-virus-or-bacteria-infected-lungs-on-medical-background-3d.jpg?s=612x612&w=0&k=20&c=RfvEi57wvzut1HuFTZVs5zXmpyIoMDizWvDcVDxjmb4=",
+    "dept_name": "Pulmonology",
+    "doctors":[{
+      "dt_name": "Veena K.P",
+      "dt_image": "https://media.istockphoto.com/id/177839842/photo/smiling-doctor-woman-with-arms-crossed.jpg?s=612x612&w=0&k=20&c=infRKfdmTMS8WYFZHF_GPuBpLPszyyXhiP5Er9a50jA=",
+      "dt_qual": "MBBS, MD ( Pulmonology)"
+    },
+   
+    {
+      "dt_name": "Melvin Thomas",
+      "dt_image": "https://img.freepik.com/premium-photo/handsome-male-doctor-standing-white-background_54391-4364.jpg?w=2000",
+      "dt_qual": "MBBS, MD ( Pulmonology)"
+    }
+  
+  ]
+    
+  },
+  {
+    "id":4,
+    "dept_image": "https://media.istockphoto.com/id/926917670/photo/doctor-shows-a-hologram-of-a-patient.jpg?s=612x612&w=0&k=20&c=kJDW5j7Zp4JYa9nRSgOQUmQkZFqcf5fT82VkEKvkfGw=",
+    "dept_name": "General Medicine",
+    "doctors":[{
+      "dt_name": "Vijay P.J",
+      "dt_image": "https://st3.depositphotos.com/1001951/33555/i/600/depositphotos_335550312-stock-photo-indian-doctor-with-stethoscope-around.jpg",
+      "dt_qual": "MBBS, MD (General Medicine)"
+    }]
+   
+  }
+]
+}
+

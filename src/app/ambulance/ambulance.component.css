@@ -1,0 +1,19 @@
+h1{
+    color: #df0b0b;
+}
+.align-right {
+    display: block;
+    margin: 0 auto;
+    float: right;
+  }
+  img{
+    margin-left: 250px;
+    width: 400px;
+    height: 200px;
+  }
+  h5{
+    color: #df0b0b;
+  }
+  h3{
+    color: #df0b0b;
+  }

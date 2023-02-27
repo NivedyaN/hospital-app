@@ -1,0 +1,106 @@
+ <!-- Section-->
+ <section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let doctors of dtDetails.doctors ">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" [src]="doctors.dt_image" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h3 class="fw-bolder">{{doctors.dt_name}} </h3>
+                            <!-- Product name-->
+                            <h6 class="fw-bolder">{{doctors.dt_qual}}</h6>
+                           
+                        </div>
+                    </div>
+                    <div id="btn" class="card-footer p-4 pt-0 border-top-0 bg-transparent ">
+                      <button  type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Book Appointment
+                      </button> 
+                    </div>
+
+                </div>
+            </div>                      
+        </div>
+    </div>
+  </section>
+   
+                    <!-- Product actions-->
+                      
+                          
+                          
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel"><b> Fill This please</b></h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                          
+                                <div class="modal-body">
+                                  <h3>Patient details</h3>
+                          
+                                  <form class="border p-2">
+                                    <input type="text"  placeholder="Patient Name" class="form-control mb-2">
+                                    <input type="number" placeholder="Age" class="form-control mb-2">
+                                    <input type="text"  placeholder="Phone no" class="form-control mb-2">
+                          
+                                    <!--<label class="border p-2  " for="Gender">Gender:</label>
+                                    <select id="gender" name="gender">
+                                      <option value="Other">---</option>
+                                      <option value="Male">Male</option>
+                                      <option value="Female">Female</option>
+                                      <option value="Other">Other</option>
+                                    </select>-->
+                          
+                                    &nbsp; <label for="gender-male">Male</label>
+                                    <input type="radio" name="gender-choice" value="choice-1">&nbsp;
+                          
+                                    <label for="gender-female">Female</label>
+                                    <input type="radio" name="gender-choice" value="choice-2">&nbsp;
+                          
+                                    <label for="gender-other">Other</label>
+                                    <input type="radio" name="gender-choice" value="choice-3"> 
+                          
+                                     <br>
+                                    <label class="border p-2 mt-2 mb-2 " for="Department">Department:</label>
+                                    <select id="Department" name="Department">
+                                      <option value="Other">Please select</option>
+                                      <option value="male">General Medicine</option>
+                                      <option value="female">Gastroenterology</option>
+                                      <option value="other">Pulmonology</option>
+                                      <option value="other">Dental, Oral & Maxillofacial Surgery</option>
+                          
+                                    </select><br>     
+                             
+                                    <input type="text"  placeholder="place" class="form-control mb-2">
+                                    <input type="date"  placeholder="date" class="form-control mb-2">
+                          
+                                    <label class="border p-2  " for="time">Time:  </label>
+                                    <!--<select id="Time" name="Time">
+                                      <option value="Other">Select</option>
+                                      <option value="Morning">Morning</option>
+                                      <option value="Evening">Evening</option>
+                                    </select>-->
+                                    &nbsp; <label for="morning-time">Morning</label>
+                                    <input type="checkbox" name="time-choice" value="choice-1">&nbsp;
+                          
+                                    <label for="evening-time">Evening</label>
+                                    <input type="checkbox" name="time-choice" value="choice-2">&nbsp;
+                             
+                                  </form>
+                          
+                                   <div class="modal-footer">
+                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                     <button type="submit" class="btn btn-primary">Submit</button>
+                                   </div>
+                                 
+                              </div>
+                            </div>
+                          </div>
+
+
+                    </div>
+               

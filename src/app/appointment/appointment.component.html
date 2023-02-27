@@ -1,0 +1,118 @@
+<!--<div class="container mt-5 mb-3 border border-light p-3">
+<form>
+    <h3 class="text-light text-center mb-3">Book your appointment</h3>
+<div class="mb-2">  
+    <label  class="form-outline" for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+  
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br>
+  
+    <label for="sex">Sex:</label>
+    <select id="sex" name="sex">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br>
+  
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department"><br>
+  
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone"><br>
+  
+    <label for="place">Place:</label>
+    <input type="text" id="place" name="place"><br>
+  
+    <button  class="btn btn-primary"  type="submit" value="Submit"></button>
+    </div>
+
+  </form>
+  </div>
+  -->
+<div class="container mt-5">
+<h2><b> Book Your Appointment</b> </h2>
+<p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus, eum ipsum repudiandae consequuntur ea
+  ullam sint consectetur dolorum atque, sunt quisquam? Veritatis at vel itaque cumque ipsa laudantium cum.</p><br>
+  <h4><b> For any queries:</b></h4><br>
+  <h5><b>contact: +91 1234567898</b></h5>
+
+</div>
+<div class="container mb-4 mt-3">
+  <!--Button trigger modal -->
+  <button  type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Book Appointment
+  </button>
+  
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><b> Fill This please</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <h3>Patient details</h3>
+
+        <form class="border p-2">
+          <input type="text"  placeholder="Patient Name" class="form-control mb-2">
+          <input type="number" placeholder="Age" class="form-control mb-2">
+          <input type="text"  placeholder="Phone no" class="form-control mb-2">
+
+          <!--<label class="border p-2  " for="Gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="Other">---</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>-->
+
+          &nbsp; <label for="gender-male">Male</label>
+          <input type="radio" name="gender-choice" value="choice-1">&nbsp;
+
+          <label for="gender-female">Female</label>
+          <input type="radio" name="gender-choice" value="choice-2">&nbsp;
+
+          <label for="gender-other">Other</label>
+          <input type="radio" name="gender-choice" value="choice-3"> 
+
+           <br>
+          <label class="border p-2 mt-2 mb-2 " for="Department">Department:</label>
+          <select id="Department" name="Department">
+            <option value="Other">Please select</option>
+            <option value="male">General Medicine</option>
+            <option value="female">Gastroenterology</option>
+            <option value="other">Pulmonology</option>
+            <option value="other">Dental, Oral & Maxillofacial Surgery</option>
+
+          </select><br>     
+   
+          <input type="text"  placeholder="place" class="form-control mb-2">
+          <input type="date"  placeholder="date" class="form-control mb-2">
+
+          <label class="border p-2  " for="time">Time:  </label>
+          <!--<select id="Time" name="Time">
+            <option value="Other">Select</option>
+            <option value="Morning">Morning</option>
+            <option value="Evening">Evening</option>
+          </select>-->
+          &nbsp; <label for="morning-time">Morning</label>
+          <input type="checkbox" name="time-choice" value="choice-1">&nbsp;
+
+          <label for="evening-time">Evening</label>
+          <input type="checkbox" name="time-choice" value="choice-2">&nbsp;
+   
+        </form>
+
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <button (click)="saveDtl()" type="submit" class="btn btn-primary">Submit</button>
+         </div>
+       
+    </div>
+  </div>
+</div>
